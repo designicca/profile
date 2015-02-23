@@ -16,6 +16,8 @@
 
 
 
+@import url(http://fonts.googleapis.com/css?family=Raleway:600,800,900,400);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700,400);
 
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -40,7 +42,7 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  //font: inherit;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -50,6 +52,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  font-family:  "Raleway", "Montserrat", sans-serif;
 }
 ol, ul {
   list-style: none;

@@ -1,5 +1,129 @@
+.wrap {
+  position: relative;
+  width: 100%;
+  .background {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 800px;
+    background-image: url(/assets/blog/top_bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;  
+  }
+  .blog {
+    text-align: center;
+    padding: 300px 0;
+    color: white;
+    z-index: 100;
+    height: 800px;
+    h1 {
+      font-size: 55px;
+      font-weight: 800;
+      letter-spacing: 10px;
+      margin-bottom: 30px;
+    }
+    h3 {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+.category {
+  margin: 30px 0 0;
+  img {
+    vertical-align: middle;
+  }
+  h1 {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(198, 156, 109, 0.5);
+    margin: 10px 30px 10px 20px;
+    cursor: pointer;
+  }
+  .select {
+    color: #c69c6d;
+  }
+}
+
 .blog-post {
+  width: 980px;
   .post {
-    background-image: gray;
+    display: inline-block;
+    margin: 30px 0;
+    .thumbnail {
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      display: inline-block;
+    }
+    .right {
+      float: right;
+      width: 625px;
+      margin: 10px 0 10px 60px;
+      .title {
+        display: inline-block;
+        a {
+          font-size: 25px;
+          font-weight: 700;
+          display: inline-block;
+          text-decoration: none;
+          color: #000000; 
+          padding-bottom: 10px;
+        } 
+        .view {
+          display: none;
+          background-color: #c69c6d;
+          color: white;
+          margin-left: 12px;
+          padding: 5px 10px;
+          border-radius: 10px;
+          font-size: 14px;
+          position: relative;
+          bottom: 5px;
+          text-align: center;
+          width: 70px;
+          cursor: pointer;
+        }
+      }
+      .title:hover {
+        a {
+          color: #c69c6d;
+        } 
+        .view {
+          display: inline-block;
+        }
+      }
+      
+      .date {
+        font-size: 12px;
+        color: #cccccc;
+      }
+      .icon {
+        margin: 20px 0;
+        font-family: "Montserrat", sans-serif;
+        img {
+          margin-right: 5px;
+          vertical-align: middle;
+        }
+        h3 {
+          font-size: 18px;
+          font-weight: 700;
+          color: #000000;
+          display: inline-block;
+          margin-right: 20px;
+        }
+      }
+      p {
+        font-size: 17px;
+        line-height: 28px;
+        color: #666666;
+      }
+    }
   }  
 }
