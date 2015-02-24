@@ -153,6 +153,55 @@
     }
     .hover {
       display: none;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      .information {
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        height: 382px;
+        padding: 130px 50px;
+        h3 {
+          color: #c69c6d;
+          font-family: "Montserrat", sans-serif;
+          font-size: 18px;
+          margin: 10px 0;
+        }
+        p {
+          color: white;
+          line-height: 30px;
+          width: 500px;
+        }        
+      }
+      .foot {
+        background-color: white;
+        height: 100px;
+        padding: 30px 40px;
+        h3 {
+          font-size: 20px;
+          font-weight: 600;
+          color: #000000;
+          display: inline-block;
+          .tag {
+            font-size: 14px;
+            color: #c69c6d;
+          }
+        }
+        .icon {
+          display: inline-block;
+          float: right;
+          margin-top: 5px;
+          img {
+            vertical-align: middle;
+            margin: 0 12px;
+          }
+        }
+      }
+    }
+  }
+  .col-md-4:hover {
+    .hover {
+      display: block;
     }
   }
 }
