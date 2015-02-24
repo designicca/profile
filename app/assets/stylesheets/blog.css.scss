@@ -1,3 +1,124 @@
+/* about page */
+
+
+/* contents style */
+.about {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* profile style */ 
+.about .background {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 520px;
+  background-image: url(/assets/about/background-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+}
+.about .profile {
+  text-align: center;
+  padding: 50px 0;
+  color: white;
+  z-index: 100;
+}
+.about .profile img {
+  width: 270px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.about .profile h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.about .profile h4 {
+  font-size: 20px;
+}
+
+/* about me style */ 
+.about .SecondProfileLeft {
+  width: 50%;
+  height: 600px;
+  display: inline-block;
+  float: left;
+  background-image: url(/assets/about/second_profile.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: 9999;
+}
+.about .SecondProfileLeft img {
+  width: 100%;
+}
+.about .SecondProfileRight {
+  width: 50%;
+  display: inline-block;
+  float: right;
+  padding: 10px 0;
+}
+.about .SecondProfileRight .contents {
+  padding: 50px;
+  margin: 0 auto;
+}
+.about .SecondProfileRight .contents h3 {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #1d2533;
+}
+.about .SecondProfileRight .contents .name {
+  font-size: 40px;
+}
+.about .SecondProfileRight .contents h5 {
+  font-size: 20px;
+  margin: 35px 0;
+}
+.about .SecondProfileRight .contents p {
+  line-height: 25px;
+}
+
+@media (max-width: 480px) {
+  .wrap .SecondProfileLeft {
+    width: 100%;
+  }
+  .wrap .SecondProfileRight {
+    float: none;
+    width: 100%;
+  }
+}
+@media (min-width: 480px) {
+  .about .SecondProfileLeft {
+    width: 100%;
+  }
+  .about .SecondProfileRight {
+    float: none;
+    width: 100%;
+  }
+}
+@media (min-width: 1100px) {
+  .about .SecondProfileLeft {
+    width: 50%;
+  }
+  .about .SecondProfileRight {
+    float: right;
+    width: 50%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 /* blog.html.erb */
 
 .wrap {
@@ -157,7 +278,7 @@
       position: absolute;
       top: 0;
       width: 100%;
-      
+
       a {
         text-decoration: none;
         .information {
