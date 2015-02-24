@@ -304,5 +304,53 @@
 
 
 
+/* contact page */
 
+.message {
+  text-align: center;
+  margin: 100px auto 200px;
+  width: 980px;
+  overflow: auto;
+  h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 20px 0 70px;
+  }
+
+  $border: 3px solid #ddd;
+  
+  .input-area {
+    input {
+      background-color: white;
+      border-radius: 5px;
+      border: $border;
+      padding: 15px 25px;
+      margin: 0 8px;
+      line-height: 26px;
+      font-size: 15px;
+      color: #666;
+      width: 280px;
+    }
+  }
+  textarea {
+    display: block;
+    background-color: white;
+    border-radius: 5px;
+    border: $border;
+    padding: 25px;
+    line-height: 26px;
+    width: 880px;
+    margin: 20px auto   
+  }
+  .send-btn {
+    background-color: #000000;
+    color: white;
+    padding: 15px 32px;
+    border: 0;
+    font-size: 16px;
+    margin-top: 20px;
+    float: right;
+    margin: 20px 50px 0 0;
+  }
+}
 
