@@ -140,6 +140,25 @@
 
 
 
+/* portfolio page */
+.row {
+  .col-md-4 {
+    padding: 0;
+    .pf-content {
+      width: 100%;
+      height: 483px;
+      img {
+        width: 100%;
+      }
+    }
+    .hover {
+      display: none;
+    }
+  }
+}
+
+
+
 /* blog, portfolio - details 페이지 */
 .detail {
   width: 980px;
