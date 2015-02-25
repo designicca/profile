@@ -523,6 +523,28 @@
 
 
 /* portfolio page ------------------------ */
+.portfolio-menu {
+  background-color: white;
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  margin: 0 auto;
+  ul {
+    display: inline-block;
+    li {
+      list-style: none;
+      float: left;
+      font-size: 25px;
+      font-weight: 600;
+      margin: 0 20px;
+      color: rgba(198, 156, 109, 0.5);
+      cursor: pointer;
+    }
+    li:hover {
+      color: rgba(198, 156, 109, 1);
+    }
+  }
+}
 .row {
   .col-md-4 {
     padding: 0;
