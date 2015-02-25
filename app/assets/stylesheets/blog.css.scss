@@ -227,8 +227,26 @@
     > .panel-collapse {
       .panel-body {
         padding: 0;
-        img {
-          width: 100%;
+
+        .carousel-indicators {
+          .active {
+            display: none;
+          }
+          li {
+            display: none;
+          }
+        }
+        .carousel-inner {
+          .item {
+            img {
+              width: 100%;
+            }
+          }
+        }
+        .carousel-control {
+          .arrow-btn {
+            margin-top: 340px;
+          }
         }
         .contents {
           padding: 25px;
