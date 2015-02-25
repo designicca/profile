@@ -1,3 +1,73 @@
+/* common page ------------------------ */
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  .container {
+    margin: 30px auto;
+    .menu {
+      float: right;
+      cursor: pointer;
+    }
+  } 
+}
+
+.modal {
+  .modal-dialog {
+    width: 1200px;
+    .modal-content {
+      box-shadow: none;
+      background-color: rgba(255, 255, 255, 0);
+      border: none;
+      text-align: center;
+      .modal-header {
+        border-bottom: 0;
+        margin-bottom: 120px;
+      }
+      .modal-body {
+        ul {
+          overflow: auto;
+          display: inline-block;
+          margin: 0 auto;
+          li {
+            list-style: none;
+            float: left;
+            margin: 0 20px;
+            font-weight: 700;
+            font-size: 30px;
+            color: white;
+          }
+        }
+        .input-area {
+          display: block;
+          margin: 50px 0;
+          input {
+            background-color: white;
+            padding: 13px 20px;
+            width: 400px;
+            font-size: 18px;
+            line-height: 25px;
+            border: 0;
+          }
+          .search {
+            position: absolute;
+          }
+        }
+        .menu-sns {
+          margin: 20px 0;
+          img {
+            margin: 0 15px;
+            vertical-align: middle;
+          }
+        }
+      }
+    } 
+  }
+}
+
+
 /* main page ------------------------ */
 .main {
   padding: 280px 0;
