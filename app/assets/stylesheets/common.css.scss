@@ -1,0 +1,122 @@
+/* common page ------------------------ */
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  .container {
+    margin: 30px auto;
+    .menu {
+      float: right;
+      cursor: pointer;
+    }
+  } 
+}
+
+.modal {
+  .modal-dialog {
+    width: 1200px;
+    .modal-content {
+      box-shadow: none;
+      background-color: rgba(255, 255, 255, 0);
+      border: none;
+      text-align: center;
+      margin-top: 160px;
+      .modal-header {
+        border-bottom: 0;
+        margin-bottom: 120px;
+      }
+      .modal-body {
+        ul {
+          overflow: auto;
+          display: inline-block;
+          margin: 0 auto;
+          li {
+            list-style: none;
+            float: left;
+            margin: 0 30px;
+            font-weight: 700;
+            font-size: 30px;
+            a {
+              text-decoration: none;
+              color: white;
+            }
+            a:hover {
+              color: #c7b299;
+            }
+          }
+        }
+        .input-area {
+          display: block;
+          margin: 100px 0 70px;
+          input {
+            background-color: white;
+            padding: 13px 62px 13px 20px;
+            width: 400px;
+            font-size: 18px;
+            line-height: 25px;
+            border: 0;
+            font-weight: 600;
+          }
+          .search {
+            position: absolute;
+            top: 158px;
+            right: 415px;
+          }
+        }
+        .menu-sns {
+          margin: 20px 0;
+          img {
+            margin: 0 15px;
+            vertical-align: middle;
+          }
+        }
+      }
+    } 
+  }
+}
+
+
+footer{
+  background-color: white;
+  .container {
+    padding: 50px 0;
+    text-align: center;
+    ul {
+      display: inline-block;
+      margin: 0 auto;
+      li {
+        list-style: none;
+        float: left;
+        margin:  0 40px;
+        font-size: 25px;
+        font-weight: 600;
+        a {
+          color: #444;
+          text-decoration: none;
+        }
+        a:hover {
+          color: #c69c6d;
+        }
+      }
+    }
+    .sns-area {
+      margin: 50px auto;
+      display: block;
+      img {
+        margin: 0 15px;
+        vertical-align: middle;
+      }
+    }
+    p {
+      font-size: 15px;
+      color: #999;
+    }  
+  }
+  
+}
+
+
+
+

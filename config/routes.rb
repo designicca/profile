@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'home#index'
-
+  
   get '/blog' => 'home#blog'
   get '/blog/details' => 'home#blog_details'
   get '/portfolio/details' => 'home#portfolio_details'
