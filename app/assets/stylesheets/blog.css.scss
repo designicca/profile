@@ -133,6 +133,41 @@ header {
   }
 }
 
+.slider {
+  .carousel {
+    .carousel-indicators {
+      .active {
+        display: none;
+      }
+      li {
+        display: none;
+      }
+    }
+    .carousel-inner {
+      .carousel-caption {
+        text-align: left;
+        text-shadow: none;
+        top: 60%;
+        h1 {
+          font-size: 35px;
+          font-weight: 600;
+          margin: 10px 0 30px;
+        }
+        p {
+          font-size: 17px;
+          line-height: 25px;
+          width: 700px;
+        }
+      }
+    }
+    .carousel-control {
+      .arrow-btn {
+        margin-top: 500px;
+      }
+    }
+  }
+}
+
 /* about page ------------------------ */
 .about {
   position: relative;
