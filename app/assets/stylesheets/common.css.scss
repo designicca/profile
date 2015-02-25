@@ -7,6 +7,10 @@ header {
   z-index: 9999;
   .container {
     margin: 30px auto;
+    padding: 0;
+    .logo {
+      height: 40px;
+    }
     .menu {
       float: right;
       cursor: pointer;
