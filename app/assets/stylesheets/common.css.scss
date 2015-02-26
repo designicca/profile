@@ -81,6 +81,26 @@ header {
   }
 }
 
+.down-scrolling {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  left: 49%;
+  margin-top: -125px;
+  cursor: pointer;
+  opacity: 0.5;
+  h3 {
+    font-size: 16px;
+    color: #555555;
+  }
+  img {
+    margin: 15px 0;
+  }
+}
+.down-scrolling:hover {
+  opacity: 1;
+}
+
 
 footer{
   background-color: white;
