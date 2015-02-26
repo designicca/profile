@@ -6,9 +6,9 @@
     font-size: 20px;
   }
   h3 {
+    margin: 30px 0 50px;
     font-size: 30px;
     font-weight: 600;
-    margin: 30px 0 50px;
   }
   p {
     font-size: 15px;
@@ -16,9 +16,9 @@
   .sns {
     margin: 50px 0;
     .tooltips {
+      position: relative;
       display: inline-block;
       width: 100px;
-      position: relative;
       a {
         img {
           vertical-align: middle;
@@ -26,22 +26,22 @@
       }
       
       .hover {
+        position: absolute;
         display: none;
         margin: 10px 0 0;
-        position: absolute;
         .balloon {
           width: 20px;
           margin-left: 40px;
         }
         h3 {
+          position: absolute;
+          width: 100px;
+          margin: -5px 0 0;
+          padding: 10px 0;
           background-color: #222;
           color: white;
-          width: 100px;
-          text-align: center;
-          padding: 10px 0;
           font-size: 15px;
-          position: absolute;
-          margin: -5px 0 0;
+          text-align: center;
         }
       }
     }
@@ -69,14 +69,14 @@
         text-shadow: none;
         top: 60%;
         h1 {
+          margin: 10px 0 30px;
           font-size: 35px;
           font-weight: 600;
-          margin: 10px 0 30px;
         }
         p {
+          width: 700px;
           font-size: 17px;
           line-height: 25px;
-          width: 700px;
         }
       }
     }
@@ -97,7 +97,6 @@
     position: absolute;
     display: block;
     width: 100%;
-    
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -129,8 +128,8 @@
     z-index: 100;
     img {
       width: 270px;
-      border-radius: 50%;
       margin-bottom: 20px;
+      border-radius: 50%;
     }
     h1 {
       font-family: "Montserrat", sans-serif;
@@ -153,10 +152,10 @@
     padding: 193px 0;
   }
   .SecondProfileLeft {
-    width: 50%;
-    height: 600px;
     display: inline-block;
     float: left;
+    width: 50%;
+    height: 600px;
     background-image: url(/assets/about/second_profile.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -167,25 +166,25 @@
     }
   }
   .SecondProfileRight {
-    width: 50%;
     display: inline-block;
     float: right;
+    width: 50%;
     padding: 10px 0;
     .contents {
-      padding: 50px;
       margin: 0 auto;
+      padding: 50px;
       h3 {
         margin-bottom: 30px;
-        font-weight: 700;
         font-size: 30px;
+        font-weight: 700;
         color: #1d2533;
       }
       .name {
         font-size: 40px;
       }
       h5 {
-        font-size: 20px;
         margin: 35px 0;
+        font-size: 20px;
       }
       p {
         line-height: 25px;
@@ -227,9 +226,8 @@
 
 /* story page ------------------------ */
 .story {
-  background-color: #f2f2f2;
   padding: 50px 0 150px;
-
+  background-color: #f2f2f2;
   .map {
     display: inline-block;
     width:100%; 
@@ -239,23 +237,22 @@
         -ms-filter: grayscale(100%);
          -o-filter: grayscale(100%);
             filter: grayscale(100%); 
-  
   }
   .page-title {
+    padding: 30px 0 50px;
     font-size: 30px;
     font-weight: 700;
     text-align: center;
-    padding: 30px 0 50px;
   }
 
   .panel-default {
     border: 0;
     > .panel-heading {
-      background-color: #f2f2f2;
       padding: 0;
       border: 0;
       border-top: 1px solid #333;
       border-radius: 0;
+      background-color: #f2f2f2;
       a {
         text-decoration: none;
         table {
@@ -269,11 +266,11 @@
                 }
               }
               h1 {
+                display: inline-block;
+                width: 150px;
+                margin: 0 30px;
                 font-family: "Montserrat", sans-serif;
                 font-size: 50px;
-                width: 150px;
-                display: inline-block;
-                margin: 0 30px;
               }
               .story-info {
                 display: inline-block;
@@ -283,10 +280,10 @@
                   color: #666666;
                 }
                 h5 {
+                  margin: 8px 0 20px;
                   font-family: "Montserrat", sans-serif;
                   font-size: 14px;
                   color: #cccccc;
-                  margin: 8px 0 20px
                 }
                 p {
                   color: #999;
@@ -317,7 +314,6 @@
     > .panel-collapse {
       .panel-body {
         padding: 0;
-
         .carousel-indicators {
           .active {
             display: none;
@@ -341,12 +337,12 @@
         .contents {
           padding: 25px;
           h1 {
+            display: inline-block;
             width: 230px;
+            margin-right: 20px;
             font-size: 30px;
             font-weight: 700;
-            margin-right: 20px;
             line-height: 45px;
-            display: inline-block;
             text-align: center;
             vertical-align: top;
             .date {
@@ -364,20 +360,15 @@
   }
   .plus {
     background-color: white;
+    margin: 60px 0;
     padding: 20px;
     text-align: center;
-    margin: 60px 0;
     cursor: pointer;
   }
   .plus:hover {
     background-color: #dfdfdf;
   }
 }
-
-
-
-
-
 
 
 /* blog page ------------------------ */
@@ -405,16 +396,16 @@
     background-image: url(/assets/top-contact-bg.png);
   }
   .blog {
-    text-align: center;
+    height: 800px;
     padding: 300px 0;
     color: white;
+    text-align: center;
     z-index: 100;
-    height: 800px;
     h1 {
+      margin-bottom: 30px;
       font-size: 55px;
       font-weight: 800;
       letter-spacing: 10px;
-      margin-bottom: 30px;
     }
     h3 {
       font-size: 20px;
@@ -432,10 +423,10 @@
   }
   h1 {
     display: inline-block;
+    margin: 10px 30px 10px 20px;
     font-size: 20px;
     font-weight: 700;
     color: rgba(198, 156, 109, 0.5);
-    margin: 10px 30px 10px 20px;
     cursor: pointer;
   }
   .select {
@@ -449,10 +440,10 @@
     display: inline-block;
     margin: 30px 0;
     .thumbnail {
+      display: inline-block;
       padding: 0;
       border: 0;
       border-radius: 0;
-      display: inline-block;
     }
     .right {
       float: right;
@@ -461,25 +452,25 @@
       .title {
         display: inline-block;
         a {
+          display: inline-block;
+          padding-bottom: 10px;
           font-size: 25px;
           font-weight: 700;
-          display: inline-block;
           text-decoration: none;
           color: #000000; 
-          padding-bottom: 10px;
         } 
         .view {
           display: none;
-          background-color: #c69c6d;
-          color: white;
-          margin-left: 12px;
-          padding: 5px 10px;
-          border-radius: 10px;
-          font-size: 14px;
           position: relative;
           bottom: 5px;
-          text-align: center;
           width: 70px;
+          margin-left: 12px;
+          padding: 5px 10px;
+          font-size: 14px;
+          background-color: #c69c6d;
+          color: white;
+          border-radius: 10px;
+          text-align: center;
           cursor: pointer;
         }
       }
@@ -504,11 +495,11 @@
           vertical-align: middle;
         }
         h3 {
+          display: inline-block;
+          margin-right: 20px;
           font-size: 18px;
           font-weight: 700;
           color: #000000;
-          display: inline-block;
-          margin-right: 20px;
         }
       }
       p {
@@ -521,22 +512,22 @@
 }
 
 
-
 /* portfolio page ------------------------ */
 .portfolio-menu {
-  background-color: white;
   width: 100%;
-  padding: 50px 0;
-  text-align: center;
   margin: 0 auto;
+  padding: 50px 0;
+  background-color: white;
+  text-align: center;
+  
   ul {
     display: inline-block;
     li {
       list-style: none;
       float: left;
+      margin: 0 20px;
       font-size: 25px;
       font-weight: 600;
-      margin: 0 20px;
       color: rgba(198, 156, 109, 0.5);
       cursor: pointer;
     }
@@ -561,19 +552,18 @@
       position: absolute;
       top: 0;
       width: 100%;
-
       a {
         text-decoration: none;
         .information {
-          background-color: rgba(0, 0, 0, 0.5);
-          text-align: center;
           height: 382px;
           padding: 130px 50px;
+          background-color: rgba(0, 0, 0, 0.5);
+          text-align: center;
           h3 {
+            margin: 10px 0;
             color: #c69c6d;
             font-family: "Montserrat", sans-serif;
             font-size: 18px;
-            margin: 10px 0;
           }
           p {
             color: white;
@@ -582,18 +572,17 @@
           }        
         }
       }
-      
       .foot {
-        background-color: white;
         height: 100px;
         padding: 30px 40px;
         top: auto;
         bottom: 0;
+        background-color: white;
         h3 {
+          display: inline-block;
           font-size: 20px;
           font-weight: 600;
           color: #000000;
-          display: inline-block;
           .tag {
             font-size: 14px;
             color: #c69c6d;
@@ -619,14 +608,12 @@
 }
 
 
-
 /* blog, portfolio - details 페이지 ------------------------ */
 .detail {
   width: 980px;
   margin: 40px auto;
-  text-align: center;
   padding-top: 100px;
-
+  text-align: center;
   .like {
     margin-bottom: 50px;
     img {
@@ -641,9 +628,9 @@
   }
 
   h1 {
+    margin: 20px 0;
     font-size: 30px;
     font-weight: 600;
-    margin: 20px 0;
   }
   .load {
     margin: 20px 0 50px;
@@ -653,15 +640,15 @@
     }
   }
   .date {
+    margin: 20px 0 50px;
     color: #b2b2b2;
     font-size: 14px;
-    margin: 20px 0 50px;
     font-family: "Montserrat", sans-serif;
   }
   p {
-    font-size: 16px;
     color: #000000;
     line-height: 30px;
+    font-size: 16px;
     font-weight: 600;
     text-align: left;
   }
@@ -677,13 +664,13 @@
   }
 
   .tag {
+    padding: 20px 15px;
     border-top: 1px solid #c69c6d;
     border-bottom: 1px solid #c69c6d;
-    padding: 20px 15px;
     h1 {
-      font-size: 16px;
       display: inline-block;
       margin-right: 20px;
+      font-size: 16px;
       color: #999999;
     }
     p {
@@ -703,17 +690,17 @@
       width: 100%;
       tr {
         td {
-          text-align: left;
           padding: 10px 0;
           vertical-align: middle;
+          text-align: left;
           img {
             vertical-align: middle;
             margin: 10px 30px 10px 0;
           }
           h3 {
+            margin-bottom: 10px;
             font-size: 28px;
             font-weight: 700;
-            margin-bottom: 10px;
             span {
               font-family: "Montserrat", sans-serif;
               font-size: 15px;
@@ -724,15 +711,12 @@
       }
       .answer {
         position: relative;
-
       }
     }
   }
 
-
   .pagenation {
     margin: 80px 0 150px;
-
     .pagenation-thumbnail {
       text-align: left;
       img {
@@ -742,7 +726,6 @@
         float: right;
       }
     }
-
     .arrow {
       overflow: auto;
       vertical-align: middle;
@@ -751,13 +734,12 @@
         vertical-align: middle;
       }
       h3 {
+        display: inline-block;
+        margin-top: 15px;
         vertical-align: middle;
         font-size: 20px;
         font-weight: 600;
         color: #c69c6d;
-        display: inline-block;
-        margin-top: 15px;
-
       }
       .left {
         float: left;
@@ -774,9 +756,9 @@
         display: inline-block;
         h1 {
           display: inline-block;
+          margin-right: 10px;
           font-size: 16px;
           color: #aaa;
-          margin-right: 10px;
         }
       }
     }
@@ -784,54 +766,52 @@
 }
 
 
-
 /* contact page ------------------------ */
 
 .message {
-  text-align: center;
-  margin: 100px auto 200px;
   width: 980px;
+  margin: 100px auto 200px;
   overflow: auto;
+  text-align: center;
   h1 {
+    margin: 20px 0 70px;
     font-size: 35px;
     font-weight: 600;
-    margin: 20px 0 70px;
   }
 
   $border: 3px solid #ddd;
   
   .input-area {
     input {
-      background-color: white;
-      border-radius: 5px;
-      border: $border;
-      padding: 15px 25px;
+      width: 280px;
       margin: 0 8px;
+      padding: 15px 25px;
+      background-color: white;
+      border: $border;
+      border-radius: 5px;
       line-height: 26px;
       font-size: 15px;
       color: #666;
-      width: 280px;
     }
   }
   textarea {
     display: block;
-    background-color: white;
-    border-radius: 5px;
-    border: $border;
-    padding: 25px;
-    line-height: 26px;
     width: 880px;
-    margin: 20px auto   
+    margin: 20px auto;
+    padding: 25px;
+    background-color: white;
+    border: $border;
+    border-radius: 5px;
+    line-height: 26px; 
   }
   .send-btn {
-    background-color: #000000;
-    color: white;
-    padding: 15px 32px;
-    border: 0;
-    font-size: 16px;
-    margin-top: 20px;
     float: right;
     margin: 20px 50px 0 0;
+    padding: 15px 32px;
+    background-color: #000000;
+    color: white;
+    border: 0;
+    font-size: 16px;
   }
 }
 
